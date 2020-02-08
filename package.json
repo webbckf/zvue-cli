@@ -4,7 +4,7 @@
   "description": "项目构建脚手架",
   "main": "src/index.js",
   "bin": {
-    "zvue": "src/index.js"
+    "zvue-cli": "src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
