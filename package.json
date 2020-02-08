@@ -1,10 +1,10 @@
 {
   "name": "zvue-init",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "项目构建脚手架",
+  "main": "src/index.js",
   "bin": {
-    "zvue": "index.js"
+    "zvue": "src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,13 @@
     "type": "git",
     "url": "https://github.com/webbckf/zvue-init.git"
   },
-  "keywords": [],
+  "files": [
+    "src/*.js",
+    "node_modules",
+    ".gitignore",
+    "package.json"
+  ],
+  "keywords": ["zvue-init"],
   "author": "",
   "license": "ISC",
   "dependencies": {
